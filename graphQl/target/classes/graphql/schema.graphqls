@@ -1,0 +1,15 @@
+
+type Query {
+  getAllCustomers:[Customer]
+  getCustomer(id:Int):Customer
+
+}
+
+
+type Customer{	
+	id:ID!
+	name:String
+	address:String
+	mobileNumber:String
+	age:Int
+}
